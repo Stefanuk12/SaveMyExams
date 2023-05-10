@@ -4,7 +4,7 @@ This a crack for [SaveMyExams](https://www.savemyexams.co.uk/) that allows you t
 
 # Installation
 
-1. Download the extension from [Releases](https://github.com/Stefanuk12/SMA-Crack/releases/latest)
+1. Clone the repo (or download as zip)
 2. Enable [developer mode](https://youtu.be/sZeUZjhOfgM)
-3. Extract the extension
+3. Extract the extension (skip if cloned)
 4. Load unpacked extension (use extracted folder)
