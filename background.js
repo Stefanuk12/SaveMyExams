@@ -1,5 +1,5 @@
 // Vars
-const BaseURL = "http://localhost:8080"
+const BaseURL = "https://sma-crack.deno.dev"
 const SiteRE = /https:\/\/www\.savemyexams\.co\.uk\/api\/v0\/posts\/([\w\_-~]+)\/topic-questions\/parts\/([\w-~\_]+)\/solution/
 const Proxy = {
     solution: `${BaseURL}/solution`
