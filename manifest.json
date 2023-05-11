@@ -2,17 +2,19 @@
     "name": "SaveMyExams Crack",
     "version": "1.0.0",
     "description": "Unlock some paid features for free",
-    "manifest_version": 2,
+    "manifest_version": 3,
     "author": "Stefanuk12",
-    "background": {
-        "scripts": ["background.js"],
-        "persistent": true
+    "declarative_net_request": {
+        "rule_resources": [{
+            "id": "ruleset_1",
+            "enabled": true,
+            "path": "rules.json"
+        }]
     },
     "permissions": [
-        "tabs",
-        "webRequest",
-        "webNavigation",
-        "webRequestBlocking",
-        "https://www.savemyexams.co.uk/*"
+        "declarativeNetRequest"
+    ],
+    "host_permissions": [
+        "https://*.savemyexams.co.uk/*"
     ]
 }

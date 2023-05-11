@@ -1,0 +1,15 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": {
+            "type": "redirect",
+            "redirect": {
+                "url": "http://localhost:8080/solution"
+            }
+        },
+        "condition": {
+            "regexFilter": "https://www.savemyexams.co.uk/api/v0/posts"
+        }
+    }
+]
