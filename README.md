@@ -12,3 +12,4 @@ This a crack for [SaveMyExams](https://www.savemyexams.co.uk/) that allows you t
 # Additional files
 
 1. Run the script inside of [notes_bypass](./notes_bypass.js) to bypass the 10 daily note limit
+2. Run the script inside of [disable_track](./disable_track.js) to disable any tracking functionality
