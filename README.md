@@ -8,3 +8,7 @@ This a crack for [SaveMyExams](https://www.savemyexams.co.uk/) that allows you t
 2. Enable [developer mode](https://youtu.be/sZeUZjhOfgM)
 3. Extract the extension (skip if cloned)
 4. Load unpacked extension (use extracted folder)
+
+# Additional files
+
+1. Run the script inside of [notes_bypass](./notes_bypass.js) to bypass the 10 daily note limit
