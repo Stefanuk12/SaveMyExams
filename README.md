@@ -8,7 +8,7 @@ SaveMyExams sends a request to their servers asking for the answer of the page. 
 
 ## Running
 
-You can find a pre-built release within the [latest releases]().
+You can find a pre-built release within the [latest releases](https://github.com/Stefanuk12/SaveMyExams/releases/latest).
 
 Download the correct one for your operating system and run the executable.
 
