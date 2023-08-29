@@ -4,8 +4,10 @@
         await new Promise(resolve => setTimeout(resolve, 1))
     }
 
-    // Reset our note reviews
-    window.Sme.helpers.ls.removeItem("SME.revision-note-views")
+    // Reset our note reviews periodically (every second)
+    setInterval(() => {
+        window.Sme.helpers.ls.removeItem("SME.revision-note-views")
+    }, 1000)
 
     // Disable tracking
     window.Sme.track.sendGAEvent = function() { return }
