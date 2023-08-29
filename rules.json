@@ -9,7 +9,7 @@
             }
         },
         "condition": {
-            "regexFilter": "https://www.savemyexams.co.uk/api/v0/posts"
+            "regexFilter": "https://www.savemyexams.com/api/v0/posts"
         }
     }
 ]
