@@ -15,7 +15,7 @@ API.addRoute(
     new Route(["OPTIONS", EMethod.GET], "/solution")
         .addPipe( ({response, request}) => {
             // Check
-            response.headers.set("Access-Control-Allow-Origin", "https://www.savemyexams.co.uk")
+            response.headers.set("Access-Control-Allow-Origin", "https://www.savemyexams.com")
             response.headers.set("Access-Control-Allow-Methods", "GET,OPTIONS")
             if (request.method == "OPTIONS") {
                 return response
