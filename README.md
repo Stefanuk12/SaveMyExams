@@ -1,6 +1,9 @@
 # SMA-Crack
 
-This a crack for [SaveMyExams](https://www.savemyexams.co.uk/) that allows you to view the solutions for questions
+This a crack for [SaveMyExams](https://www.savemyexams.co.uk/) that gives you the following benefits:
+- Unlimited Note Reviews
+- View Model Answers
+- No Tracking 
 
 # Installation
 
