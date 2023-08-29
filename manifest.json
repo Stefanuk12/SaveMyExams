@@ -11,10 +11,15 @@
             "path": "rules.json"
         }]
     },
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
     "permissions": [
-        "declarativeNetRequest"
+        "declarativeNetRequest",
+        "scripting"
     ],
     "host_permissions": [
-        "https://*.savemyexams.co.uk/*"
+        "https://*.savemyexams.com/*"
     ]
 }

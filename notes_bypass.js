@@ -1,1 +1,0 @@
-Sme.limit.getRevisionNoteViews = function() { return [] }
