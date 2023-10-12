@@ -1,12 +1,12 @@
 (async() => {
     // Allow things to load in
-    while (window.Sme.helpers === undefined) {
-        await new Promise(resolve => setTimeout(resolve, 1))
+    while (window.Sme == undefined || window.localStorage == undefined) {
+        await new Promise(resolve => setTimeout(resolve, 100))
     }
 
     // Reset our note reviews periodically (every second)
     setInterval(() => {
-        window.Sme.helpers.ls.removeItem("SME.revision-note-views")
+        window.localStorage.removeItem("SME.revision-note-views")
     }, 1000)
 
     // Disable tracking
